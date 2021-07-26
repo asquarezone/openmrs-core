@@ -1,4 +1,4 @@
-node('MASTER') {
+node('GOL') {
     stage('scm') {
         git "https://github.com/asquarezone/openmrs-core.git"
     }
